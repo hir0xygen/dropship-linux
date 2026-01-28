@@ -1,0 +1,60 @@
+# This workflow builds Dropship on Linux using CMake
+
+name: Linux Build
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  # Build configuration
+  BUILD_CONFIGURATION: Release
+  # Working directory within the repository
+  WORKING_DIR: ./dropship/dropship
+
+permissions:
+  contents: read
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          libglfw3-dev \
+          libcurl4-openssl-dev \
+          libgl1-mesa-dev
+
+    - name: Create build directory
+      working-directory: ${{env.WORKING_DIR}}
+      run: mkdir -p build
+
+    - name: Configure CMake
+      working-directory: ${{env.WORKING_DIR}}/build
+      run: cmake .. -DCMAKE_BUILD_TYPE=${{env.BUILD_CONFIGURATION}}
+
+    - name: Build
+      working-directory: ${{env.WORKING_DIR}}/build
+      run: make -j$(nproc)
+
+    - name: Create binary archive
+      working-directory: ${{env.WORKING_DIR}}/build
+      run: |
+        tar czf dropship-linux-x64.tar.gz dropship
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: dropship-linux-x64
+        path: ${{env.WORKING_DIR}}/build/dropship-linux-x64.tar.gz
+        retention-days: 7
