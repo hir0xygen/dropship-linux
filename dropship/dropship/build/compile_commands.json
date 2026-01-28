@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build",
+  "command": "/usr/bin/c++ -DDROPSHIP_LINUX -DIMGUI_DEFINE_MATH_OPERATORS -DNOMINMAX -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/dropship.dir/vendor/imgui-docking/imgui.cpp.o -c /home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui.cpp",
+  "file": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui.cpp",
+  "output": "CMakeFiles/dropship.dir/vendor/imgui-docking/imgui.cpp.o"
+},
+{
+  "directory": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build",
+  "command": "/usr/bin/c++ -DDROPSHIP_LINUX -DIMGUI_DEFINE_MATH_OPERATORS -DNOMINMAX -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_demo.cpp.o -c /home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_demo.cpp",
+  "file": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_demo.cpp",
+  "output": "CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build",
+  "command": "/usr/bin/c++ -DDROPSHIP_LINUX -DIMGUI_DEFINE_MATH_OPERATORS -DNOMINMAX -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_draw.cpp.o -c /home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_draw.cpp",
+  "file": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_draw.cpp",
+  "output": "CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build",
+  "command": "/usr/bin/c++ -DDROPSHIP_LINUX -DIMGUI_DEFINE_MATH_OPERATORS -DNOMINMAX -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_tables.cpp.o -c /home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_tables.cpp",
+  "file": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_tables.cpp",
+  "output": "CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build",
+  "command": "/usr/bin/c++ -DDROPSHIP_LINUX -DIMGUI_DEFINE_MATH_OPERATORS -DNOMINMAX -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_widgets.cpp.o -c /home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_widgets.cpp",
+  "file": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_widgets.cpp",
+  "output": "CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build",
+  "command": "/usr/bin/c++ -DDROPSHIP_LINUX -DIMGUI_DEFINE_MATH_OPERATORS -DNOMINMAX -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_impl_glfw.cpp.o -c /home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_impl_glfw.cpp",
+  "file": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build",
+  "command": "/usr/bin/c++ -DDROPSHIP_LINUX -DIMGUI_DEFINE_MATH_OPERATORS -DNOMINMAX -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_impl_opengl3.cpp.o -c /home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_impl_opengl3.cpp",
+  "file": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/dropship.dir/vendor/imgui-docking/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build",
+  "command": "/usr/bin/c++ -DDROPSHIP_LINUX -DIMGUI_DEFINE_MATH_OPERATORS -DNOMINMAX -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/dropship.dir/src/main_linux.cpp.o -c /home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src/main_linux.cpp",
+  "file": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src/main_linux.cpp",
+  "output": "CMakeFiles/dropship.dir/src/main_linux.cpp.o"
+},
+{
+  "directory": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build",
+  "command": "/usr/bin/c++ -DDROPSHIP_LINUX -DIMGUI_DEFINE_MATH_OPERATORS -DNOMINMAX -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/dropship.dir/src/platform/firewall/firewall_linux.cpp.o -c /home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src/platform/firewall/firewall_linux.cpp",
+  "file": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src/platform/firewall/firewall_linux.cpp",
+  "output": "CMakeFiles/dropship.dir/src/platform/firewall/firewall_linux.cpp.o"
+},
+{
+  "directory": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build",
+  "command": "/usr/bin/c++ -DDROPSHIP_LINUX -DIMGUI_DEFINE_MATH_OPERATORS -DNOMINMAX -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/dropship.dir/src/platform/http/http_linux.cpp.o -c /home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src/platform/http/http_linux.cpp",
+  "file": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src/platform/http/http_linux.cpp",
+  "output": "CMakeFiles/dropship.dir/src/platform/http/http_linux.cpp.o"
+},
+{
+  "directory": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build",
+  "command": "/usr/bin/c++ -DDROPSHIP_LINUX -DIMGUI_DEFINE_MATH_OPERATORS -DNOMINMAX -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor -I/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/vendor/imgui-docking -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles/dropship.dir/src/platform/privileges_linux.cpp.o -c /home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src/platform/privileges_linux.cpp",
+  "file": "/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/src/platform/privileges_linux.cpp",
+  "output": "CMakeFiles/dropship.dir/src/platform/privileges_linux.cpp.o"
+}
+]

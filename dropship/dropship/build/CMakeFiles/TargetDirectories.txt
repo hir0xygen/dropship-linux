@@ -1,0 +1,7 @@
+/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build/CMakeFiles/dropship.dir
+/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build/CMakeFiles/edit_cache.dir
+/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build/CMakeFiles/rebuild_cache.dir
+/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build/CMakeFiles/list_install_components.dir
+/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build/CMakeFiles/install.dir
+/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build/CMakeFiles/install/local.dir
+/home/hir0xygen/Desktop/gitspace/serverswap/dropship/dropship/dropship/build/CMakeFiles/install/strip.dir

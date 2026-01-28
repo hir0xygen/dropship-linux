@@ -34,6 +34,8 @@ ImFont* font_text = nullptr;
 
 bool dashboard_open = true;
 bool show_privilege_dialog = false;
+static std::string http_test_result;
+static bool show_http_result = false;
 
 // GLFW error callback
 static void glfw_error_callback(int error, const char* description) {
@@ -122,10 +124,11 @@ void renderPlaceholderUI(bool* p_open) {
         if (ImGui::Button("Test HTTP Download")) {
             auto result = platform::http::downloadText("https://httpbin.org/get");
             if (result) {
-                std::cout << "HTTP test successful: " << result.value().substr(0, 100) << "...\n";
+                http_test_result = "Success!\n\n" + result.value().substr(0, 200) + "...";
             } else {
-                std::cout << "HTTP test failed\n";
+                http_test_result = "Failed to download.";
             }
+            show_http_result = true;
         }
         
         ImGui::SameLine();
@@ -168,7 +171,22 @@ void renderPlaceholderUI(bool* p_open) {
         if (ImGui::Button("Cancel", ImVec2(100, 0))) {
             ImGui::CloseCurrentPopup();
         }
-        
+
+        ImGui::EndPopup();
+    }
+
+    // HTTP test result popup
+    if (show_http_result) {
+        ImGui::OpenPopup("HTTP Test Result");
+        show_http_result = false;
+    }
+
+    if (ImGui::BeginPopupModal("HTTP Test Result", nullptr, ImGuiWindowFlags_AlwaysAutoResize)) {
+        ImGui::TextWrapped("%s", http_test_result.c_str());
+        ImGui::Spacing();
+        if (ImGui::Button("OK", ImVec2(120, 0))) {
+            ImGui::CloseCurrentPopup();
+        }
         ImGui::EndPopup();
     }
 }

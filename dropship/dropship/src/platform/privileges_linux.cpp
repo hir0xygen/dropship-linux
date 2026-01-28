@@ -40,8 +40,31 @@ bool restartWithPkexec() {
         return false;
     }
     
-    // Build the pkexec command
-    std::string command = "pkexec \"" + exePath.string() + "\"";
+    // Build the pkexec command with preserved display environment variables
+    // pkexec drops XDG_RUNTIME_DIR, DISPLAY, WAYLAND_DISPLAY, and XAUTHORITY
+    // which causes GLFW to fail with "Failed to detect any supported platform"
+    std::string command = "pkexec env";
+    
+    // Preserve display-related environment variables
+    const char* envVars[] = {
+        "DISPLAY",
+        "XAUTHORITY",
+        "WAYLAND_DISPLAY",
+        "XDG_RUNTIME_DIR",
+        "XDG_SESSION_TYPE",
+        nullptr
+    };
+    
+    for (const char** var = envVars; *var != nullptr; ++var) {
+        if (auto value = std::getenv(*var)) {
+            command += " ";
+            command += *var;
+            command += "=";
+            command += value;
+        }
+    }
+    
+    command += " \"" + exePath.string() + "\"";
     
     // Execute pkexec - this replaces the current process on success
     // We use system() and then exit, as execl would not show the polkit dialog
