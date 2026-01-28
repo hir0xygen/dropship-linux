@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Dropship
+Comment=Overwatch 2 Server Selector
+Exec=dropship
+Icon=dropship
+Categories=Game;Utility;
+Keywords=overwatch;server;selector;firewall;
+Terminal=false
+StartupNotify=true
